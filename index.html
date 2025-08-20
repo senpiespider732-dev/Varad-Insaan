@@ -1,43 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Varad-Insaan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Varad Insaan - Gaming Website</title>
   <style>
     body {
-      background-color: black;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
       margin: 0;
-      padding: 50px;
+      font-family: 'Arial', sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
     }
-    h1 {
-      color: orange;
+    header {
+      background: #ffcc00;
+      color: #000;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      text-transform: uppercase;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
     }
     p {
       font-size: 18px;
+      margin: 20px;
     }
-    button {
-      padding: 10px 20px;
-      border: none;
-      background: orange;
-      color: black;
-      font-size: 16px;
-      cursor: pointer;
+    .btn {
+      display: inline-block;
+      background: #ffcc00;
+      color: #000;
+      padding: 12px 24px;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
       border-radius: 8px;
+      transition: 0.3s;
     }
-    button:hover {
-      background: white;
-      color: black;
+    .btn:hover {
+      background: #fff;
+      color: #000;
+    }
+    .video-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      border: none;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: #111;
+      color: #ffcc00;
     }
   </style>
 </head>
 <body>
-  <h1>🔥 Varad-Insaan 🔥</h1>
-  <p>DREAM TO CREATE HISTORY 💀</p>
-  <p>Taking Minecraft videos to another level 🚀</p>
-  <button onclick="window.location.href='https://www.youtube.com/@VaradInsaan'">
-    Subscribe ❤️
-  </button>
+
+  <header>
+    🎮 Varad Insaan 🎮
+  </header>
+
+  <p>DREAM TO CREATE HISTORY 🔥 | Taking Minecraft & Gaming Videos To The Next Level 🚀</p>
+
+  <a class="btn" href="https://youtube.com/@mr.varad_kad?si=cM7JF-o51sXcoL3X" target="_blank">❤️ Subscribe Now</a>
+
+  <h2>Latest Videos</h2>
+  <div class="video-container">
+    <!-- Replace with your video links -->
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID1" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID2" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID3" allowfullscreen></iframe>
+  </div>
+
+  <footer>
+    © 2025 Varad Insaan | All Rights Reserved
+  </footer>
+
 </body>
 </html>
+ <iframe src="https://www.youtube.com/embed/abcd1234" allowfullscreen></iframe>
